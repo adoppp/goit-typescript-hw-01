@@ -1,5 +1,9 @@
-const greeting = (name) => {
-    return `Hello, ${name}`;
+function greeting(name) {
+    console.log(`Hello, ${name}`);
+}
+;
+const age = (age) => {
+    return `Your age is ${age}`;
 };
-console.log(greeting('David'));
-//# sourceMappingURL=test.js.map
+console.log(age(23));
+export { greeting };

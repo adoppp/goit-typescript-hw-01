@@ -1,5 +1,11 @@
-const greeting = (name: string) => {
-    return `Hello, ${name}`;
-}
+function greeting (name: string) {
+    console.log(`Hello, ${name}`);
+};
 
-console.log(greeting('David'))
+const age = (age: number) => {
+    return `Your age is ${age}`
+};
+
+console.log(age(23));
+
+export { greeting };
